@@ -1,10 +1,8 @@
 # Readme
-Function for parsing date format and do date correction for User friendy usage.
-With this function User can skip input some parts of date.
-For example date format is "yyyy-MM-dd HH:mm:ss".
- User can skip parts by not input them, and just left only delimeter.
-Input example: "-10- :13:".
-Result will be that month is 10, minutes is 10, and for the rest is current date values (year, day, hours, seconds).
+This function parses a date format and corrects it for user-friendly usage.
+It allows users to skip inputting certain parts of the date.
+For instance, if the date format is 'yyyy-MM-dd HH:mm:ss', users can omit certain parts by only inputting the delimiters.
+For example, inputting '-10- :13:' would result in the month being interpreted as 10, minutes as 13, while the remaining parts (year, day, hours, seconds) default to the current date values.
 
 ```javascript
 /** USAGE
